@@ -24,6 +24,7 @@ import {
 	ResidentIcon,
 	StatusIcon,
 } from "../../../assets/icons/Icons";
+import StatusIndicator from "../../../components/StatusIndicator";
 
 const CURRENCY_FILER_OPTIONS = [
 	{
@@ -111,7 +112,12 @@ const Transactions = () => {
 								<td>{new Date(transaction.date).toLocaleString()}</td>
 								<td>{transaction.currency}</td>
 								<td>{new Decimal(transaction.amount).toFixed(3).toString()}</td>
-								<td>{TRANSACTION_STATUS_LABELS[transaction.status]}</td>
+								<td>
+									<StatusIndicator
+										status={transaction.status}
+										label={TRANSACTION_STATUS_LABELS[transaction.status]}
+									/>
+								</td>
 							</Tr>
 						))}
 					</tbody>
