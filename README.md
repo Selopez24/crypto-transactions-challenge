@@ -1,11 +1,4 @@
-<img width="656" alt="image" src="https://github.com/Selopez24/ledn-challenge/assets/36748039/df5793d9-286d-4242-b72e-69317b84fc56">
 
-<div align='center'>
-<img width='100%' src='https://blog.ledn.io/hs-fs/hubfs/Ledn_Animation_short-1.gif?width=1017&name=Ledn_Animation_short-1.gif'/>
-<br><br>
-
-  <h3>Where digital assets come to life</h3>
-  <br><br>
   <h1>Frontend technical challenge</h1>
 </div>
 
